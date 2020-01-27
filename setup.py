@@ -20,7 +20,6 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',
     ],
-    install_requires=['pythonnet'],
     data_files=[
         (
             'share/opensesame_plugins/Pulse_EVT2',
