@@ -1,10 +1,15 @@
 description: EVT-2/3 Trigger plug-in.
-version: 0.99b
+version: 1.0.0
 author: "Mark Span"
 url: "http://www.rug.nl/"
 category: "Miscellaneous"
-date: "2016"
+date: "2016 - 2020"
 controls:
+-
+    type: checkbox
+    var: dummy
+    label: Dummy mode
+    name: dummy_checkbox
 -
     type: "line_edit"
     var: "_value"
